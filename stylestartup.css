@@ -1,0 +1,46 @@
+body,
+html {
+  background: url(SunandMonsterFriends.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Pacifico', sans-serif;
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Pacifico', sans-serif;
+}
+
+.centered {
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%, -50%);
+	font-size: 5vw;
+	color: #3A1356;
+}
+
+.btn {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	background-color: #3A1356;
+	border-radius: 6px; 
+	font-family: Helvetica, sans-serif;
+}
